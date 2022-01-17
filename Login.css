@@ -1,0 +1,50 @@
+/*Full screen*/
+.main{
+  display: flex;
+}
+
+/*image part*/
+.image{
+  display: flex;
+  flex:1;
+}
+
+.image img{
+  width:auto;
+  height:750px;
+}
+
+/*login part*/
+.login{
+  flex:1;
+  background-color: #76E5F6;
+  text-align: center;
+}
+
+.block{
+  flex-flow: column;
+}
+
+.block p{
+  font-size: 60px;
+}
+
+.inputbox{
+  width:300px;
+}
+
+.btn{
+  width:170px;
+  height:25px;
+  background-color: #008CBA;
+  border: none;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
